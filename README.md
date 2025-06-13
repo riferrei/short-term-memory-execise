@@ -66,7 +66,7 @@ The project is organized into two main directories:
 
 ### Setting Up the Environment
 
-Before running the application, make sure to set up the environment variables for accessing the OpenAI API.
+Before running the application, make sure to set up all the dependencies of the project.
 
 1. **Create a `.env` file in the `short-term-memory-execise` directory**:
 
