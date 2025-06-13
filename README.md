@@ -21,6 +21,8 @@ Here’s a quick demo of how the project works:
 
 ![Project Screenshot](./chatbot-ui-screenshot.png)
 
+This project doesn't contain support for chat session. This means that every interaction with the chatbot is stateless, and the chatbot does not remember previous messages or context. You are going to add code to this project to include support for chat session, using Redis as the persistent store.
+
 ## Tech Stack
 
 - **Backend**: 
