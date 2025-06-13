@@ -26,17 +26,10 @@ Here’s a quick demo of how the project works:
 
 ![Project Screenshot](./chatbot-ui-screenshot.png)
 
-### Video Example
-
-Watch the demo video:
-
-![Watch the video](./chatbot.gif.gif)
-
-
 ## Tech Stack
 
 - **Backend**: 
-  - Java 17
+  - Java 21
   - Spring Boot
   - Spring AI
   - OpenAI API
@@ -55,7 +48,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-- [Java 17](https://adoptopenjdk.net/) (if running the Spring Boot app locally)
+- [Java 21](https://adoptopenjdk.net/) (if running the Spring Boot app locally)
 - [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (if running the React app locally)
 
 ## Getting Started
@@ -63,8 +56,8 @@ Before you begin, ensure you have the following installed on your machine:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/vikasrajputin/spring-ai-chatbot.git
-cd spring-ai-chatbot
+git clone https://github.com/riferrei/short-term-memory-execise.git
+cd short-term-memory-execise
 ```
 
 ### Project Structure
@@ -78,13 +71,18 @@ The project is organized into two main directories:
 
 Before running the application, make sure to set up the environment variables for accessing the OpenAI API.
 
-1. **Create a `.env` file in the `spring-boot-ai-chatbot` directory**:
+1. **Create a `.env` file in the `short-term-memory-execise` directory**:
 
     ```bash
     OPENAI_API_KEY=your_openai_api_key
     ```
+   
+2. **Execute a Maven build to build the backend application**:
 
-2. **(Optional) Create a `.env` file in the `chatbot-ui` directory if needed**.
+    ```bash
+    cd spring-boot-ai-chatbot
+    ./mvnw clean install
+    ```
 
 ### Running the Application with Docker
 
